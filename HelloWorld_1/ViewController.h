@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *messageLabel;
+- (IBAction)buttonClicked:(id)sender;
+
 
 @end
