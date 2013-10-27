@@ -30,5 +30,10 @@
 }
 
 - (IBAction)buttonClicked:(id)sender {
+    self.messageLabel.text = self.textField.text;
+}
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    [self.view endEditing:YES];
 }
 @end

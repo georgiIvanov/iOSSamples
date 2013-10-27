@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *messageLabel;
 - (IBAction)buttonClicked:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 
 @end
