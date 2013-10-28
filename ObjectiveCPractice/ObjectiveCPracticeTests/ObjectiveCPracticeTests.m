@@ -1,18 +1,18 @@
 //
-//  ProteinTrackerTests.m
-//  ProteinTrackerTests
+//  ObjectiveCPracticeTests.m
+//  ObjectiveCPracticeTests
 //
-//  Created by Georgi Ivanov on 10/27/13.
+//  Created by Georgi Ivanov on 10/28/13.
 //  Copyright (c) 2013 Georgi Ivanov. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface ProteinTrackerTests : XCTestCase
+@interface ObjectiveCPracticeTests : XCTestCase
 
 @end
 
-@implementation ProteinTrackerTests
+@implementation ObjectiveCPracticeTests
 
 - (void)setUp
 {
