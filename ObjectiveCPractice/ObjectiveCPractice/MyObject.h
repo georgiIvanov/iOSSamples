@@ -8,9 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+
 @protocol DataSource
 @required
 -(NSString*)getData;
+@optional
+-(NSInteger) getNumber;
 @end
 
 @interface MyObject : NSObject <DataSource>
@@ -26,7 +29,8 @@
 -(id) initWithValue: (int) value;
 
 -(NSString*) Haha;
-
+-(void)startTaskInBackground;
+@property (weak) NSButton *btnButton;
 // property declaration
 @property id anotherObject;
 

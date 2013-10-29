@@ -7,6 +7,7 @@
 //
 
 #import "MyObject.h"
+#import <dispatch/dispatch.h>
 
 @implementation MyObject
 {
@@ -36,6 +37,25 @@
 -(NSString*) Haha
 {
     return [[NSString alloc] initWithFormat:@"LOL"];
+}
+-(void) startTaskInBackground
+{
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
+        int a;
+        for (int i = 0; i < 1000000; i++) {
+            
+            a = i;
+            for (int j = 0; j < 500; j++) {
+                
+            }
+        }
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            //self.btnButton.title = [[NSString alloc] initWithFormat:@"%d",a ];
+            self.btnButton.title = [[NSString alloc] initWithFormat:
+                                    @"Background muthafucka"];
+        });
+    });
 }
 
 -(NSString*) getData

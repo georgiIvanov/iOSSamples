@@ -24,7 +24,12 @@
     
     self.btnButton.title = [obj Haha];
     
-    [obj getData];
+    [obj getData]; // protocol method call
+    
+    obj.btnButton = self.btnButton;
+    
+    [obj startTaskInBackground];
+    
 }
 
 @end
