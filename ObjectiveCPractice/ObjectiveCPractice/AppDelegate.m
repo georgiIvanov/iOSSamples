@@ -22,7 +22,9 @@
     
     self.btnButton.title = [[NSString alloc] initWithFormat:@"%d", obj.value];
     
-    //self.btnButton.title = [obj Haha];
+    self.btnButton.title = [obj Haha];
+    
+    [obj getData];
 }
 
 @end

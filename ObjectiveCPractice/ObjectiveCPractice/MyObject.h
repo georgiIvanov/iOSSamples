@@ -8,8 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol DataSource
+@required
+-(NSString*)getData;
+@end
 
-@interface MyObject : NSObject
+@interface MyObject : NSObject <DataSource>
 {
     int var1;
 }

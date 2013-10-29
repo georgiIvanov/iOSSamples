@@ -38,6 +38,11 @@
     return [[NSString alloc] initWithFormat:@"LOL"];
 }
 
+-(NSString*) getData
+{
+    return @"this is remote data";
+}
+
 -(id) init
 {
     return ([self initWithValue:0]);
