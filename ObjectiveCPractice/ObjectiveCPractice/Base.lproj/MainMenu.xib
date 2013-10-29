@@ -656,13 +656,22 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9bw-5Z-Urm">
-                        <rect key="frame" x="70" y="197" width="208" height="32"/>
+                        <rect key="frame" x="14" y="312" width="208" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="cia-yg-Qib">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                     </button>
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vhw-3I-gVe">
+                        <rect key="frame" x="29" y="106" width="280" height="149"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="KV1-Ub-bXg">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                 </subviews>
             </view>
         </window>
@@ -670,6 +679,7 @@
             <connections>
                 <outlet property="btnButton" destination="9bw-5Z-Urm" id="d2O-Cq-sMi"/>
                 <outlet property="lblText" destination="HKn-EM-AtJ" id="wJK-Dr-hhe"/>
+                <outlet property="txtHtml" destination="vhw-3I-gVe" id="ZhP-jP-9Pp"/>
                 <outlet property="window" destination="371" id="532"/>
             </connections>
         </customObject>

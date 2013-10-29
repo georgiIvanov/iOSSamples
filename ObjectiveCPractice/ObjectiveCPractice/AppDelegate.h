@@ -13,6 +13,7 @@
 @property (assign) IBOutlet NSWindow *window;
 @property (copy) NSString* userName;
 @property (weak) IBOutlet NSButton *btnButton;
+@property (weak) IBOutlet NSTextField *txtHtml;
 
 
 @end
