@@ -21,6 +21,11 @@
 		FFA5C960181D0E88007204BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA5C942181D0E88007204BD /* UIKit.framework */; };
 		FFA5C968181D0E88007204BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFA5C966181D0E88007204BD /* InfoPlist.strings */; };
 		FFA5C96A181D0E88007204BD /* HelloWorld_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA5C969181D0E88007204BD /* HelloWorld_1Tests.m */; };
+		FFBB7A6018203F3800EB5AF2 /* MailingAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBB7A5F18203F3800EB5AF2 /* MailingAddress.m */; };
+		FFBB7A6318203F3900EB5AF2 /* Email.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBB7A6218203F3900EB5AF2 /* Email.m */; };
+		FFBB7A6618203F3900EB5AF2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBB7A6518203F3900EB5AF2 /* Person.m */; };
+		FFBB7A6918203F3900EB5AF2 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBB7A6818203F3900EB5AF2 /* Address.m */; };
+		FFBB7A6C18203F3900EB5AF2 /* PhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBB7A6B18203F3900EB5AF2 /* PhoneNumber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		FFA5C965181D0E88007204BD /* HelloWorld_1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorld_1Tests-Info.plist"; sourceTree = "<group>"; };
 		FFA5C967181D0E88007204BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FFA5C969181D0E88007204BD /* HelloWorld_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorld_1Tests.m; sourceTree = "<group>"; };
+		FFBB7A5E18203F3800EB5AF2 /* MailingAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MailingAddress.h; path = CoreDataTests/Models/MailingAddress.h; sourceTree = "<group>"; };
+		FFBB7A5F18203F3800EB5AF2 /* MailingAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MailingAddress.m; path = CoreDataTests/Models/MailingAddress.m; sourceTree = "<group>"; };
+		FFBB7A6118203F3900EB5AF2 /* Email.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Email.h; path = CoreDataTests/Models/Email.h; sourceTree = "<group>"; };
+		FFBB7A6218203F3900EB5AF2 /* Email.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Email.m; path = CoreDataTests/Models/Email.m; sourceTree = "<group>"; };
+		FFBB7A6418203F3900EB5AF2 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = CoreDataTests/Models/Person.h; sourceTree = "<group>"; };
+		FFBB7A6518203F3900EB5AF2 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = CoreDataTests/Models/Person.m; sourceTree = "<group>"; };
+		FFBB7A6718203F3900EB5AF2 /* Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Address.h; path = CoreDataTests/Models/Address.h; sourceTree = "<group>"; };
+		FFBB7A6818203F3900EB5AF2 /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Address.m; path = CoreDataTests/Models/Address.m; sourceTree = "<group>"; };
+		FFBB7A6A18203F3900EB5AF2 /* PhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhoneNumber.h; path = CoreDataTests/Models/PhoneNumber.h; sourceTree = "<group>"; };
+		FFBB7A6B18203F3900EB5AF2 /* PhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhoneNumber.m; path = CoreDataTests/Models/PhoneNumber.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +97,16 @@
 		FFA5C932181D0E87007204BD = {
 			isa = PBXGroup;
 			children = (
+				FFBB7A6A18203F3900EB5AF2 /* PhoneNumber.h */,
+				FFBB7A6B18203F3900EB5AF2 /* PhoneNumber.m */,
+				FFBB7A6718203F3900EB5AF2 /* Address.h */,
+				FFBB7A6818203F3900EB5AF2 /* Address.m */,
+				FFBB7A6418203F3900EB5AF2 /* Person.h */,
+				FFBB7A6518203F3900EB5AF2 /* Person.m */,
+				FFBB7A6118203F3900EB5AF2 /* Email.h */,
+				FFBB7A6218203F3900EB5AF2 /* Email.m */,
+				FFBB7A5E18203F3800EB5AF2 /* MailingAddress.h */,
+				FFBB7A5F18203F3800EB5AF2 /* MailingAddress.m */,
 				FFA5C944181D0E88007204BD /* HelloWorld_1 */,
 				FFA5C963181D0E88007204BD /* HelloWorld_1Tests */,
 				FFA5C93D181D0E88007204BD /* Frameworks */,
@@ -249,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFBB7A6618203F3900EB5AF2 /* Person.m in Sources */,
 				FFA5C955181D0E88007204BD /* ViewController.m in Sources */,
+				FFBB7A6318203F3900EB5AF2 /* Email.m in Sources */,
+				FFBB7A6C18203F3900EB5AF2 /* PhoneNumber.m in Sources */,
 				FFA5C94F181D0E88007204BD /* AppDelegate.m in Sources */,
+				FFBB7A6918203F3900EB5AF2 /* Address.m in Sources */,
+				FFBB7A6018203F3800EB5AF2 /* MailingAddress.m in Sources */,
 				FFA5C94B181D0E88007204BD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +490,7 @@
 				FFA5C96F181D0E88007204BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFA5C970181D0E88007204BD /* Build configuration list for PBXNativeTarget "HelloWorld_1Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +499,7 @@
 				FFA5C972181D0E88007204BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
